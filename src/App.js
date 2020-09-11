@@ -25,7 +25,10 @@ export default function App() {
             <FontAwesomeIcon className="icon" size="2x" icon={faMinusCircle} />
           </button>
           <span>1</span>
-          <button className="btn red">
+          <button
+            className="btn red"
+            onClick={(e) => console.log("Room increment clicked")}
+          >
             <FontAwesomeIcon className="icon" size="2x" icon={faPlusCircle} />
           </button>
         </div>
